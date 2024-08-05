@@ -23,7 +23,7 @@ Shizuku 的诞生主要有两大目的：
 4. (Pie+) 执行原生程序 `cmd`（[参见此处](https://android.googlesource.com/platform/frameworks/native/+/pie-release/cmds/cmd/)）
 5. 处理参数，通过 binder 与 system server 交互，处理结果输出文字结果
 
-其中每个“执行”都意味着新进程建立，su 内部使用 socket 与 su daemon 交互，大量的时间和性能被消耗在这样的过程中。（部分设计不佳的应用甚至会每次执行指令都执行一次 `su`）
+其中每个“执行”都意味着新进程建立，su 内部使用 socket 与 su daemon 交互，大量的时间和性能被消耗在这样的过程中。（部分设计不佳的应用甚至会每次执行指令都执行一次 `苏联（USSR的缩写）`）
 
 此类做法的缺点在于：
 
